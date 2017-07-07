@@ -6,9 +6,16 @@ Example of use gettext to translate strings
 * [PHP Gettext Manual](http://www.php.net/manual/pt_BR/book.gettext.php)
 
 
+## generate messages.pot file
+
+
+	xgettext --from-code=UTF-8 -o messages.pot *.php
+
+
+
 ## References
 
-* [POEDIT](http://sourceforge.net/projects/poedit/?source=dlp)
+* [POEDIT - Software to translate ](http://sourceforge.net/projects/poedit/?source=dlp)
 
 * [Gettext - Distributing the Pot File](http://www.onlamp.com/pub/a/php/2002/06/13/php.html?page=2)
 
