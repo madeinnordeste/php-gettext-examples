@@ -2,8 +2,17 @@
 
 // I18N support information here
 $language = 'pt_BR';
-putenv("LANG=$language"); 
+
 setlocale(LC_ALL, $language);
+
+putenv("LC_ALL=$language");
+
+/*
+$results = putenv("LC_ALL=$language");
+if (!$results) {
+    exit ('putenv failed');
+}
+*/
 
 // Set the text domain as 'messages'
 $domain = 'messages';

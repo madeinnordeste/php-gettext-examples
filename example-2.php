@@ -1,8 +1,8 @@
 <?php 
 
-$language = 'en';
-putenv("LANG=$language"); 
+$language = 'pt_BR';
 setlocale(LC_ALL, $language);
+putenv("LC_ALL=$language");
 
 // Set the text domain as 'messages'
 $domain = 'messages';
